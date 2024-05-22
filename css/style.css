@@ -52,8 +52,40 @@ body{
   width: 80px;
 }
 
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 768px) {
+  .stopwatch {
+    margin: 50px auto 0px;
+    width: 65%;
+  }
+  .stopwatch h1 {
+    margin-top: 30px;
+    font-size: 55px;
+  }
+  .buttons img:nth-child(2) {
+    width: 70px;
+  }
+  .buttons img {
+    width: 44px;
+    margin: 0 15px;
+  }
+}
 
-
-
-
-
+ /* Media Query for Mobile Devices */
+ @media (max-width: 480px) {
+  .stopwatch {
+    margin: 50px auto 0px;
+    padding: 30px 0px;
+  }
+  .stopwatch h1 {
+    margin-top: 30px;
+    font-size: 55px;
+  }
+  .buttons img {
+    width: 45px;
+    margin: 0 12px;
+  }
+  .buttons img:nth-child(2) {
+    width: 70px;
+  }
+}
